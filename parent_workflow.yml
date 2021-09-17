@@ -1,0 +1,12 @@
+name: Parent Workflow Template
+
+parameters:
+- name: yesNo
+  type: boolean
+  default: false
+
+jobs: 
+  test_parent: 
+    steps: 
+    - name: Diplay Parameters
+      run: echo ${{ parameters.yesNo }}

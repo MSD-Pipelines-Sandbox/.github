@@ -1,0 +1,5 @@
+{
+    "name": "Child Workflow Template",
+    "description": "Template to test the inheritance of a yaml template in GitHub",
+    "iconName": "Microsoft_logo.svg"
+}
